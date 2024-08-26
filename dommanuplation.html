@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="one">
+        <p> i am paragarph one</p>
+        <p id ="last">welcome to dom manipulation</p>
+    </div>
+    <script>
+        var newEle=document.createElement("h4")
+        console.log(newEle)
+         
+        newEle.innerText="i am the head of the page"
+
+        var curdiv=document.getElementById("one")
+        //curdiv.appendChild(newEle)
+
+        var lastele=document.getElementById("last")
+        //curdiv.insertBefore(newEle,lastele);
+
+        //lastele.replaceChildren(newEle);
+
+        //lastele.remove();
+        console.log(curdiv.getAttribute("id"))
+
+    </script>
+    
+</body>
+</html>

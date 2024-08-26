@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=o3, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            margin:0px auto;
+            background-color: aqua;
+            box-sizing:border-box ;
+        }
+        /*mobile phones :*/
+        @media screen and (max-width:767px){
+            .container
+            {
+                width: 100%;
+                padding: 5px 10px;
+                background-color: red;
+            }
+
+        }
+        @media screen and (min-width:768px) and (max-width:1023px){
+            .container
+            {
+                width: 750px;
+                padding: 5px 10px;
+                background-color: #1900ff;
+            }
+        }
+        @media screen and (max-width:1024px){
+            .container
+            {
+                width: 980px;
+                padding: 5px 10px;
+                background-color:green;
+            }
+        }
+        @media screen and (min-width:1280px){
+            .container
+            {
+                width:1200px;
+                padding: 5px 10px;
+                background-color:blueviolet;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book</p>
+        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book</p>
+    </div>
+    
+</body>
+</html>

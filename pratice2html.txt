@@ -1,0 +1,20 @@
+<html>
+</html>
+<head>
+<h1>Tasks to do</h1>
+</head>
+<body>
+<ol>
+<li><u>Drive kids to school</u></li>
+<li>check emails</li>
+<li>prepare project description
+<ul style="list-style-type:circle">
+<li>develop the scope</li>
+<li>divide the scope</li>
+<li>prepare the shedule</li>
+<li>submit the tasks to trello</li>
+</ul>
+<li>meet with justine</li>
+<li>pickup the kids from school<bold>dont forgot it again!</bold>
+</ol>
+</body>

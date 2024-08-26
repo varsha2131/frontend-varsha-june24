@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <script>
+    function showtime()
+        {
+            let d=new Date();
+            document.getElementById("demo").innerHTML=d.toLocaleTimeString();
+        }
+        function stopclock()
+        {
+            clearInterval(clearId)
+        }
+       clearId= setInterval(showtime,1000);
+        </script>
+      <p> welcome to india time is:<span id="demo"></span></p>
+      <button type="button" onclick="stopclock()">stop me</button>
+</body>
+</html>

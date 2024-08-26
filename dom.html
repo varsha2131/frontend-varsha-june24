@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hello{
+            font-size: 80px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .d{
+            background-color:red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id ="demo">welcome to dom</h1>
+    <p class="fam">paragarph-1</p>
+    <p class="fam">paragarph-2</p>
+    <p class="dev">paragarph-3</p>
+    <p class="dev">paragarph-4</p>
+
+    <script>
+        var result=document.getElementById('demo');
+        //console.log(result)
+        var fam=document.getElementsByClassName("fam")
+        //console.log(fam)
+        var res=document.getElementsByTagName("p")
+        //console.log(res)
+        var had=document.querySelector("#demo");
+        //console.log(had)
+        var had1=document.querySelector(".fam");
+       // console.log(had1)
+        var had2=document.querySelector(".fam");
+       // console.log(had2)
+        var fires=document.querySelectorAll(".fam");
+       //0 console.log(fires)
+
+
+      // var dis=document.getElementById("demo");
+       //dis.innerHTML="welcome to london"
+       //dis.innerText="welcome to usa"
+       //console.log(dis.textContent)
+       //console.log(dis.innerText)
+
+       var bg=document.getElementById("demo");
+       bg.style.color="green"; 
+
+       bg.classList.add("hello","d")
+
+
+    
+        
+        
+        
+        
+
+    </script>
+    
+    
+</body>
+</html>

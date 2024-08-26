@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animations</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name:varsha;
+            animation-duration:22s;
+            position: relative;
+            animation-iteration-count:infinite;
+            animation-delay:1s;
+            animation-direction: reverse;
+    
+
+        }
+        #o{
+            background-color: green;
+            animation-timing-function:linear;
+        }
+        #two{
+            background-color: #570080;
+            animation-timing-function: ease;
+        }
+        #th{
+            background-color: #800049;
+            animation-timing-function: ease-in;
+        }
+        #f0{
+            background-color: #005a80;
+            animation-timing-function: ease-out;
+        }
+        #fi{
+            background-color: hsl(72, 74%, 49%);
+            animation-timing-function: ease-in-out;
+
+        }
+        #p{
+            border:20px solid #3700ff;
+            height: 1000px;
+            width: 700px;
+
+        }
+        @keyframes varsha   {
+           /*0%{
+            background-color: blue;
+            top:0px;
+            left:0px;
+           }
+           25%{
+            background-color: hwb(122 50% 0%);
+            top:0;
+            left:400px;
+            border-radius: 25%;
+           }
+           50%{
+            background-color: red;
+            top:400px;
+            left:400px;
+            border-radius: 50%;
+           }
+           75%{
+            background-color:pink;
+            top: 400px;
+            left:250px;
+            border-radius: 65%;
+           }
+           90%{
+            background-color:purple;
+            top:400px;
+            left:0;
+            border-radius: 10%;
+           }
+           100%{
+            background-color: yellow;
+            top:0;
+            left:0;
+            border-radius: 25%;
+           }*/
+    
+    from{
+        left:0px;
+    }
+    to{
+        left: 700px;
+    }  
+}      
+    </style>
+</head>
+<body>
+    <div id="p">
+        <div id="one">linear</div>
+        <div id="two">ease</div>
+        <div id="th">ease-in</div>
+        <div id="fo">ease-out</div>
+        <div id="fi">ease-in-out</div>
+        
+    </div>
+    
+</body>
+</html>

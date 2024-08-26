@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("line 1 executed susccesfully")
+        try{
+            console.log(welcome);
+        }catch(error)
+        {
+            console.log("error:please enter vaild code "+error.message);
+        }
+        finally{
+            console.log("i am finally block");
+        }
+        console.log("line 2 is executed sucessfully")
+        console.log("line 3 is executed sucessfully")
+        console.log("line 4 is executed sucessfully")
+
+
+        //by using throw keyword
+        let x=15;
+
+        console.log("execution started")
+        if(x<14)
+         {
+            throw Error("x should be greater than 15")
+            console.log("enter vaild number")
+         }
+         console.log("out of the block")
+    </script>
+    
+</body>
+</html>

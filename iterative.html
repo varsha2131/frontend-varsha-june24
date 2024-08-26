@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iterative</title>
+</head>
+<body>
+    <script>
+   /* for(var i=0;i<=10;i=i+2)
+    {
+        document.write( "the number is :"+i+"<br>")
+
+
+    }*/
+
+   /*var i=0;
+   while(i<=100)
+   {
+    document.write( "the number is :"+i+"<br>")
+    i++
+    
+   }*/
+
+  const numb=parseInt(prompt("enter a positive number"));
+
+  let isprime=true;
+  if(numb===1)
+  {
+    document.write("1 is neither prime nor composite number");
+  }
+  else if (numb>1)
+  {
+    for(let i=2;i<numb;i++)
+  {
+    if(numb%i==0)
+  {
+    isprime=false;
+    break;
+  }
+  }
+  if(isPrime)
+  {
+    document.write(`${numb}is a prime number`)
+  }else{
+    document.write(`${numb}is not prime number`)
+  }
+  else{
+    document.write("number is not prime number")
+  }
+}
+  
+
+</script>
+    
+</body>
+</html>
